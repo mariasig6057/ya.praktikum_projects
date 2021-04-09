@@ -1,12 +1,17 @@
-# Проекты Я.Практикума
 
-В данном репозитории размещены наиболее интересные проекты курса "Аналитик Данных" от Я.Практикума.
+**Задача проекта**
 
+Провести исследование текущего положения дел на рынке заведений общественного питания в Москве c целью анализа конкурентов планируемого к открытию кафе.
 
-| Ссылка и название проекта  | Описание  | Библиотеки Python |
-|:------------- |:---------------:| -------------:|
-| Cегментация пользователей интернет-магазина - [homeware_shop(e-commerce)](https://github.com/mariasig6057/ya.praktikum_projects/blob/main/homeware_shop(e-commerce).ipynb)|  |`pandas`, `numpy`, `matplotlib`, `seaborn`,  `requests`, `bs4`, `re`, `scipy`, `collections`, `itertools`, `sklearn`|
-|Оценка результатов AB-теста (новая продуктовая воронка) - [new_purchase_funnel(AB_test)](https://github.com/mariasig6057/ya.praktikum_projects/blob/main/new_purchase_funnel(AB_test).ipynb) |       | `pandas`, `numpy`, `matplotlib`, `seaborn`, `scipy`, `math`|
-|Анализ результатов проведенного AB-теста (интернет-магазин) - [e-shop(AB_test)](https://github.com/mariasig6057/ya.praktikum_projects/blob/main/e-shop(AB_test).ipynb) |      | `pandas`, `numpy`, `matplotlib`, `scipy`|
-|Оптимизация маркетинговых затрат Яндекс.Афиши - [ya_afisha](https://github.com/mariasig6057/ya.praktikum_projects/blob/main/ya_afisha.ipynb)|      |`pandas`, `numpy`, `matplotlib`, `seaborn`, `datetime`|
-|Анализ рынка общественных заведений в г. Москва - [foodservices_industry](https://github.com/mariasig6057/ya.praktikum_projects/blob/main/foodservices_industry.ipynb)|      |`pandas`, `numpy`, `matplotlib`, `seaborn`, `io`, `requests`, `folium`|
+**Что было сделано**
+1. Предобработка данных:
+	* поиск и обработка дубликатов;
+	* выделение улиц из адреса заведений;
+	* определение районов для выделенных улиц и их расположения на карте Москвы (с ипользованием внешнего источника со списком улиц и API Яндекс-геокодера).
+	
+2. EDA:
+	* изучение видов объектов общественного питания;
+	* изучение соотношения сетевых и несетевых заведений, а также их характеристик;
+	* анализ расположения заведений (популярные и непопулярные улицы и районы; характеристики заведений, расположенных на популярных улицах).
+	
+3. Выявление рекомендаций в соответствии с проведенным исследованием и оформление презентации с краткими выводами.
