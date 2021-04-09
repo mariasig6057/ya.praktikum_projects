@@ -4,7 +4,7 @@
 
 
 | Название проекта и ссылка  | Описание  | Библиотеки Python |
-|:------------- |:---------------| -------------:|
+|---|---|---|
 |[Homeware shop (e-commerce)](https://github.com/mariasig6057/ya.praktikum_projects/blob/main/homeware_shop(e-commerce).ipynb)|Cегментация покупателей по профилю потребления на основе транзакций заказов в интернет-магазине товаров для дома.|`pandas`, `numpy`, `matplotlib`, `seaborn`,  `requests`, `bs4`, `re`, `scipy`, `collections`, `itertools`, `sklearn`|
 |[New purchase funnel (AB test)](https://github.com/mariasig6057/ya.praktikum_projects/blob/main/new_purchase_funnel(AB_test).ipynb) |Оценка результатов AB-теста (новая продуктовая воронка)| `pandas`, `numpy`, `matplotlib`, `seaborn`, `scipy`, `math`|
 |[E-shop (AB test)](https://github.com/mariasig6057/ya.praktikum_projects/blob/main/e-shop(AB_test).ipynb) |Анализ результатов проведенного AB-теста (интернет-магазин)| `pandas`, `numpy`, `matplotlib`, `scipy`|
