@@ -1,12 +1,20 @@
-# Проекты Я.Практикума
+**Задача проекта**
 
-В данном репозитории размещены наиболее интересные проекты курса "Аналитик Данных" от Я.Практикума.
+Проанализировать данные о визитах, заказах и расходах Яндекс.Афиши с целью оптимизации маркетинговых затрат на основе логов с посещениями сайта Яндекс.Афиши, данных по всем заказам за период, а также статистики рекламных расходов.
 
+**Что было сделано**
 
-| Ссылка и название проекта  | Описание  | Библиотеки Python |
-|:------------- |:---------------:| -------------:|
-| Cегментация пользователей интернет-магазина - [homeware_shop(e-commerce)](https://github.com/mariasig6057/ya.praktikum_projects/blob/main/homeware_shop(e-commerce).ipynb)|  |`pandas`, `numpy`, `matplotlib`, `seaborn`,  `requests`, `bs4`, `re`, `scipy`, `collections`, `itertools`, `sklearn`|
-|Оценка результатов AB-теста (новая продуктовая воронка) - [new_purchase_funnel(AB_test)](https://github.com/mariasig6057/ya.praktikum_projects/blob/main/new_purchase_funnel(AB_test).ipynb) |       | `pandas`, `numpy`, `matplotlib`, `seaborn`, `scipy`, `math`|
-|Анализ результатов проведенного AB-теста (интернет-магазин) - [e-shop(AB_test)](https://github.com/mariasig6057/ya.praktikum_projects/blob/main/e-shop(AB_test).ipynb) |      | `pandas`, `numpy`, `matplotlib`, `scipy`|
-|Оптимизация маркетинговых затрат Яндекс.Афиши - [ya_afisha](https://github.com/mariasig6057/ya.praktikum_projects/blob/main/ya_afisha.ipynb)|      |`pandas`, `numpy`, `matplotlib`, `seaborn`, `datetime`|
-|Анализ рынка общественных заведений в г. Москва - [foodservices_industry](https://github.com/mariasig6057/ya.praktikum_projects/blob/main/foodservices_industry.ipynb)|      |`pandas`, `numpy`, `matplotlib`, `seaborn`, `io`, `requests`, `folium`|
+1. Предобработка данных.
+2.  Исследование продукта:
+ * активность клиентов (`DAU`, `WAU`, `MAU`); 
+ * пользовательские сессии;
+ * retention rate. 
+3.  Исследование продаж:
+ * когда и как часто покупают; 
+ * средний чек;
+ * ценность клиента (`LTV`).
+4. Исследование маркетинга:
+ * расходы на маркетинг;
+ * стоимость привлечения одного покупателя (`CAC`);
+ * окупаемость расходов (`ROI`);
+ * выявление успешных и неуспешных маркетинговых стратегий.
